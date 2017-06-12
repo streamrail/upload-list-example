@@ -33,7 +33,7 @@ function upload(options) {
 function createListEntity({ listType, items, sessionToken, name }) {
 	let authOptions = {
 		method: 'POST',
-		url: `https://partners.streamrail.com/api/${listType}-lists`,
+		url: `https://partners.streamrail.com/api/v2/${listType}-lists`,
 		headers: {
 			authorization: `Bearer ${sessionToken}`
 		},
