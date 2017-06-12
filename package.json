@@ -1,0 +1,23 @@
+{
+  "name": "@streamrail/upload-list-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/streamrail/upload-list-example.git"
+  },
+  "author": "@ramybenaroya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/streamrail/upload-list-example/issues"
+  },
+  "homepage": "https://github.com/streamrail/upload-list-example#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bluebird": "^3.5.0"
+  }
+}
