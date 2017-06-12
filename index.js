@@ -2,7 +2,7 @@ const axios = require('axios');
 const Promise = require('bluebird');
 
 ///////////////////////////////////////////
-// Example for uploading an array of domain:
+// Example for uploading an array of domains:
 ///////////////////////////////////////////
 
 upload({
