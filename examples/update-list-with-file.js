@@ -4,8 +4,8 @@ const path = require('path');
 const buffer = fs.readFileSync(path.join(__dirname, 'lists/list.csv'));
 
 upload({
-    // id of list
-    id: '<list-id>',
+	// id of list
+	id: '<list-id>',
 
 	// 'domain' for domains list; 'app' for bundle IDs list
 	type: 'domain',
