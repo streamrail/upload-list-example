@@ -3,7 +3,11 @@
 ## Installation   
 - `git clone https://github.com/streamrail/upload-list-example.git`   
 - `cd upload-list-example`   
-- `npm install`    
+- `npm install`
 
-## Run   
-- `npm start`
+## Examples
+- Create list from file
+- Create list from json (array)
+- Update list with file
+- Update list with json (array)
+
