@@ -5,7 +5,7 @@ const buffer = fs.readFileSync(path.join(__dirname, 'lists/list.csv'));
 
 upload({
 	// 'domain' for domains list; 'app' for bundle IDs list
-	listType: 'domain',
+	type: 'domain',
 
 	// The name of the list
 	name: 'My Domain List',

@@ -4,7 +4,7 @@ const buffer = Buffer.from(list.join('\n'), 'utf8');
 
 upload({
 	// 'domain' for domains list; 'app' for bundle IDs list
-	listType: 'domain',
+	type: 'domain',
 
 	// The name of the list
 	name: 'My Domain List',
